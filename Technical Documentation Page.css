@@ -1,5 +1,6 @@
 *{
     font-family:"Open Sans", Arial, sans-serif;
+    margin: 0;
 }
 
 html {
@@ -16,51 +17,72 @@ html {
     float: right;
 }
 
+
+h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .header_text{
 position: fixed;
-top: 0;
-background-color: green;
 width: 20%;
+padding-top: 20px;
+padding-bottom: 20px;
 }
 
 .navLinks{
-    background-color: red;
     position: fixed;
     width: 20%;
-    margin-top: 100px;
+    margin-top: 60px;
+}
+
+.navLinks {
+    color: rgb(77, 78, 83)
+}
+
+.navLinks a:visited{
+    color: rgb(77, 78, 83)
 }
 
 #main-doc{
-    background-color: wheat;
+    background-color: rgb(255, 255, 255);
     padding: 20px;
+    border-left: 3px solid rgb(247, 247, 247);
+    
 }
 
 p{
     line-height: 25px;
     padding-left: 30px;
+    color: rgb(77, 78, 83)
 }
 
 li{
     line-height: 25px;
     margin-left: 50px;
+    color: rgb(77, 78, 83)
 }
 
 #navbar a{
-    font-size: 25px;
+    font-size: 15px;
     /* display each element on a new line
     display: block
     */
     display: block;
     text-decoration: none;
     cursor: pointer;
-    border-style: solid;
+    /* border-style: solid;
     border-width: 3px;
-    border-color: black;
+    border-color: black; */
     padding: 10px 30px;
 }
 
+hr.HrNav{
+    border: 0.5px solid grey;
+}
+
 .jsCode{
-    background-color: grey;
+    background-color: rgb(247, 247, 247);
     border-radius: 5px;
     padding: 5px;
 }
