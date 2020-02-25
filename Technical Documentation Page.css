@@ -1,0 +1,64 @@
+*{
+    font-family:"Open Sans", Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  .left_side{
+      width: 20%;
+      float: left;
+  }
+
+  .right_side{
+    width: 80%;
+    float: right;
+}
+
+.header_text{
+position: fixed;
+top: 0;
+height: 60px;
+width: 100%;
+background-color: green;
+text-align: center;
+width: 20%;
+overflow: hidden;
+}
+
+.navLinks{
+    background-color: red;
+    position: fixed;
+    
+}
+
+#main-doc{
+    background-color: wheat;
+}
+
+p{
+    line-height: 25px;
+    padding-left: 30px;
+}
+
+li{
+    line-height: 25px;
+    margin-left: 50px;
+}
+
+#navbar a{
+    font-size: 25px;
+    /* display each element on a new line
+    display: block
+    */
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.jsCode{
+    background-color: grey;
+    border-radius: 5px;
+    padding: 5px;
+}
