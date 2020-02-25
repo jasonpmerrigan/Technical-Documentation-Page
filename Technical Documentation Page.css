@@ -19,22 +19,20 @@ html {
 .header_text{
 position: fixed;
 top: 0;
-height: 60px;
-width: 100%;
 background-color: green;
-text-align: center;
 width: 20%;
-overflow: hidden;
 }
 
 .navLinks{
     background-color: red;
     position: fixed;
-    
+    width: 20%;
+    margin-top: 100px;
 }
 
 #main-doc{
     background-color: wheat;
+    padding: 20px;
 }
 
 p{
@@ -55,6 +53,10 @@ li{
     display: block;
     text-decoration: none;
     cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    padding: 10px;
 }
 
 .jsCode{
