@@ -124,6 +124,7 @@ hr.HrNav{
         #main-doc{
             background-color: lightcyan;
             margin-top: 290px;
+            border-left: none;
 
         }
     }
