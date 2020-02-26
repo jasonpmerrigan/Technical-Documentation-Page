@@ -13,13 +13,18 @@ html {
 
   .left_side{
       padding-top: 20px;
-      width: 20%;
       float: left;
   }
 
   .right_side{
     width: 80%;
     float: right;
+}
+
+#main-doc{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-left: 5px solid rgb(192, 192, 192);
 }
 
 
@@ -33,7 +38,9 @@ position: fixed;
 width: 20%;
 padding-top: 20px;
 padding-bottom: 20px;
+float: left;
 }
+
 
 .navLinks{
     position: fixed;
@@ -49,12 +56,7 @@ padding-bottom: 20px;
     color: rgb(77, 78, 83)
 }
 
-#main-doc{
-    background-color: rgb(255, 255, 255);
-    padding: 20px;
-    border-left: 3px solid rgb(247, 247, 247);
-    
-}
+
 
 p{
     line-height: 25px;
@@ -69,7 +71,8 @@ li{
 }
 
 #navbar a{
-    font-size: 15px;
+    color: rgb(77, 78, 83);
+    font-size: 13px;
     /* display each element on a new line
     display: block
     */
@@ -91,3 +94,36 @@ hr.HrNav{
     border-radius: 5px;
     padding: 5px;
 }
+
+
+@media only screen and (max-width: 865px) {
+
+
+    .header_text{
+        background-color: lightcoral;
+        width:100%;
+        position: absolute;
+        }
+
+        .jsDocumentation{
+            text-align: center;
+        }
+        
+        
+        .navLinks{
+            background-color: lightgreen;
+            width:100%;
+            text-align: left;
+            position: absolute;
+        }
+
+        .right_side{
+            width: 100%;
+        }
+
+        #main-doc{
+            background-color: lightcyan;
+            margin-top: 290px;
+
+        }
+    }
